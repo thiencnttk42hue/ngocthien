@@ -1,0 +1,119 @@
+/*L pc*/
+
+@media (min-width:64em) {}
+
+
+/*Tablet & mobile*/
+
+@media (max-width:63.9375em) {
+    /* responsive phần sidebar */
+    #sidebar .slide-content {
+        position: absolute;
+        bottom: 30px;
+    }
+    #footer .btn {
+        background-color: #333 !important;
+        color: var(--white-color) !important;
+    }
+    /* responsive phần footer */
+    #footer {
+        padding: 40px;
+    }
+    .footer-item {
+        margin-bottom: 16px;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-container .footer-item {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    #footer .container,
+    .footer-item.footer-about,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+    }
+}
+
+
+/*M Tablet*/
+
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    /* responsive phần sidebar */
+    .slideshow {
+        height: 600px !important;
+    }
+    #sidebar .slide-img {
+        height: 600px;
+    }
+}
+
+
+/*S mobile*/
+
+@media (max-width: 46.1875em) {
+    /* common attributes */
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .s-mt-32 {
+        margin-top: 32px !important;
+    }
+    /* responsive phần header */
+    #header .navbar {
+        display: block;
+    }
+    #header .navbar li {
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .navbar li:first-child {
+        display: inline-block;
+    }
+    #header .navbar li a:hover {
+        background-image: linear-gradient(0, #f05e54, #f81d09);
+        color: var(--white-color);
+    }
+    /* responsive phần sidebar */
+    .slideshow {
+        height: 300px !important;
+    }
+    #sidebar .slide-img {
+        height: 300px;
+    }
+    #sidebar .left-node,
+    #sidebar .right-node {
+        font-size: 11px;
+        padding: 12px;
+    }
+    /* responsive phần content */
+    .menber-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .place-img {
+        height: 200px !important;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    /*  responsive phần modal */
+    .modal-container {
+        margin: 120px 8px;
+        height: 430px;
+        /* không tối ưu */
+    }
+}
